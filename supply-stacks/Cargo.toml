@@ -1,0 +1,17 @@
+[package]
+name = "supply-stacks"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "supply_stacks_lib"
+path = "src/lib.rs"
+
+[[bin]]
+name = "supply_stacks"
+path = "src/main.rs"
+
+[dependencies]
+regex = "1"
